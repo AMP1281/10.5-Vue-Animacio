@@ -15,13 +15,15 @@
 
 <style>
 
-.opacitat-enter-active, .opacitat-leave-active {
-  transition: opacity .40s
-}
-.opacitat-enter, .opacitat-leave-to {
-  opacity: 0
+.opacitat-enter{
+  opacity: 0;
 }
 
+.opacitat-enter-active {
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+  transition-timing-function: ease-in;
+}
 
 
 </style>

@@ -17,7 +17,6 @@
 
         </form>
 
-
         <ModalBootstrap v-if="showModal" @close="showModal=false"
 
             :nombre= 'nOk.valorNombre'

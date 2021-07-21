@@ -2,6 +2,7 @@
 <div>
     
 <Fade>
+
     <div class="input-group mt-4">
 
         <span class="input-group-text font-weight-bold alert-primary">{{ label }}</span>
@@ -19,8 +20,8 @@
         </div>
 
     </div>
-</Fade>
     
+</Fade>
 
 </div>
 
